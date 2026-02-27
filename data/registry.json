@@ -1,0 +1,322 @@
+[
+  {
+    "name": "rag-pipeline",
+    "description": "Build production RAG systems with document ingestion, chunking, embeddings, and retrieval. Supports Chroma, Pinecone, pgvector.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "AI Engineering",
+    "tags": ["rag", "embeddings", "search", "vector-db", "llm"],
+    "author": "anthropics",
+    "stars": 312,
+    "installs": 4800
+  },
+  {
+    "name": "agentic-orchestration",
+    "description": "Multi-agent system builder — crews, chains, and swarms. LangGraph, CrewAI, and custom orchestration patterns.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "AI Engineering",
+    "tags": ["agents", "orchestration", "multi-agent", "crew", "langchain"],
+    "author": "anthropics",
+    "stars": 287,
+    "installs": 3900
+  },
+  {
+    "name": "mcp-server-builder",
+    "description": "Scaffold and deploy Model Context Protocol servers with FastMCP. Tools, resources, and prompts in minutes.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "AI Engineering",
+    "tags": ["mcp", "fastmcp", "tools", "server", "protocol"],
+    "author": "anthropics",
+    "stars": 241,
+    "installs": 2700
+  },
+  {
+    "name": "voice-agent",
+    "description": "Voice AI pipelines — STT, TTS, and real-time conversation with LiveKit, Deepgram, and ElevenLabs.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "AI Engineering",
+    "tags": ["voice", "stt", "tts", "livekit", "realtime"],
+    "author": "anthropics",
+    "stars": 198,
+    "installs": 1800
+  },
+  {
+    "name": "structured-output",
+    "description": "Force LLMs to return valid JSON with Zod schemas, Pydantic models, and instructor-style extraction.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "AI Engineering",
+    "tags": ["json", "schema", "validation", "zod", "pydantic"],
+    "author": "anthropics",
+    "stars": 176,
+    "installs": 3100
+  },
+  {
+    "name": "llm-fine-tuning",
+    "description": "Fine-tune models with SFT, DPO, GRPO, and LoRA. Supports Unsloth, Axolotl, and HuggingFace Transformers.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "AI Engineering",
+    "tags": ["fine-tuning", "lora", "sft", "dpo", "training"],
+    "author": "anthropics",
+    "stars": 224,
+    "installs": 1600
+  },
+  {
+    "name": "multimodal-ai",
+    "description": "Vision and video AI — image analysis, video RAG, ColPali document understanding, OCR pipelines.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "AI Engineering",
+    "tags": ["vision", "video", "ocr", "multimodal", "colpali"],
+    "author": "anthropics",
+    "stars": 159,
+    "installs": 1400
+  },
+  {
+    "name": "eval-framework",
+    "description": "Evaluate and benchmark LLMs — build evals, run comparisons, track regressions with structured scoring.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "AI Engineering",
+    "tags": ["evals", "benchmarking", "testing", "scoring", "llm"],
+    "author": "anthropics",
+    "stars": 143,
+    "installs": 1200
+  },
+  {
+    "name": "frontend-design",
+    "description": "Production-grade web UIs — React, Next.js, Tailwind. Noise textures, micro-interactions, Lighthouse 95+ targets.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Web Dev",
+    "tags": ["react", "nextjs", "tailwind", "ui", "frontend"],
+    "author": "anthropics",
+    "stars": 389,
+    "installs": 6200
+  },
+  {
+    "name": "web-artifacts-builder",
+    "description": "Interactive React component builder — data tables, forms, dashboards, and charts as self-contained artifacts.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Web Dev",
+    "tags": ["react", "components", "artifacts", "interactive"],
+    "author": "anthropics",
+    "stars": 267,
+    "installs": 4100
+  },
+  {
+    "name": "animejs-animator",
+    "description": "Fluid web animations with anime.js — stagger reveals, morphing SVGs, timeline sequences, scroll triggers.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Web Dev",
+    "tags": ["animation", "anime.js", "motion", "scroll", "svg"],
+    "author": "anthropics",
+    "stars": 214,
+    "installs": 2300
+  },
+  {
+    "name": "theme-factory",
+    "description": "Design system generator — color palettes, typography scales, CSS custom properties, dark/light mode.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Web Dev",
+    "tags": ["design-system", "css", "tokens", "dark-mode", "theming"],
+    "author": "anthropics",
+    "stars": 178,
+    "installs": 2900
+  },
+  {
+    "name": "docker-patterns",
+    "description": "Dockerize any app — multi-stage builds, compose stacks, distroless images, health checks, and CI integration.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "DevOps",
+    "tags": ["docker", "compose", "containers", "devops", "ci"],
+    "author": "anthropics",
+    "stars": 334,
+    "installs": 5100
+  },
+  {
+    "name": "render-deployment",
+    "description": "Deploy services to Render — web services, background workers, cron jobs, and static sites with render.yaml.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "DevOps",
+    "tags": ["render", "deploy", "paas", "hosting", "cloud"],
+    "author": "anthropics",
+    "stars": 189,
+    "installs": 2800
+  },
+  {
+    "name": "building-cicd-configs",
+    "description": "CI/CD pipelines for GitHub Actions, GitLab CI, and Bitbucket — test, lint, build, deploy in one config.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "DevOps",
+    "tags": ["ci-cd", "github-actions", "pipelines", "automation", "gitlab"],
+    "author": "anthropics",
+    "stars": 256,
+    "installs": 4400
+  },
+  {
+    "name": "webapp-testing",
+    "description": "Full web testing suite — Playwright E2E, component tests, visual regression, and accessibility audits.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Testing",
+    "tags": ["playwright", "e2e", "testing", "accessibility", "visual"],
+    "author": "anthropics",
+    "stars": 298,
+    "installs": 4700
+  },
+  {
+    "name": "generating-unit-tests",
+    "description": "Auto-generate unit tests for any codebase — Jest, Vitest, Pytest — with mocking, edge cases, and coverage targets.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Testing",
+    "tags": ["unit-tests", "jest", "vitest", "pytest", "coverage"],
+    "author": "anthropics",
+    "stars": 321,
+    "installs": 5800
+  },
+  {
+    "name": "implementing-e2e-testing",
+    "description": "End-to-end test implementation with Playwright — page objects, fixtures, parallel runs, CI integration.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Testing",
+    "tags": ["e2e", "playwright", "integration", "testing", "automation"],
+    "author": "anthropics",
+    "stars": 201,
+    "installs": 3200
+  },
+  {
+    "name": "humanizer",
+    "description": "Remove AI writing patterns — strip em dashes, passive voice, hedging language. Makes text sound genuinely human.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Content",
+    "tags": ["writing", "humanize", "ai-detection", "copywriting", "editing"],
+    "author": "anthropics",
+    "stars": 445,
+    "installs": 7800
+  },
+  {
+    "name": "writing-long-form-content",
+    "description": "Research-backed long-form articles and blog posts — outlines, drafts, SEO structure, and internal linking.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Content",
+    "tags": ["blog", "articles", "seo", "writing", "long-form"],
+    "author": "anthropics",
+    "stars": 267,
+    "installs": 4200
+  },
+  {
+    "name": "linkedin-content",
+    "description": "LinkedIn posts that get traction — hooks, storytelling, carousels, and comment-bait frameworks.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Content",
+    "tags": ["linkedin", "social", "b2b", "thought-leadership", "posts"],
+    "author": "anthropics",
+    "stars": 312,
+    "installs": 5100
+  },
+  {
+    "name": "repurposing-content",
+    "description": "Atomize long-form content into tweets, carousels, newsletters, and short videos. One source, many formats.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Content",
+    "tags": ["repurposing", "social", "newsletter", "threads", "atomize"],
+    "author": "anthropics",
+    "stars": 234,
+    "installs": 3700
+  },
+  {
+    "name": "detecting-security-vulnerabilities",
+    "description": "Static security analysis — OWASP Top 10, injection flaws, secrets in code, auth issues, dependency CVEs.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Security",
+    "tags": ["security", "owasp", "vulnerabilities", "static-analysis", "audit"],
+    "author": "anthropics",
+    "stars": 376,
+    "installs": 5400
+  },
+  {
+    "name": "implementing-error-handling",
+    "description": "Comprehensive error handling patterns — try/catch hierarchies, retry logic, circuit breakers, observability hooks.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Security",
+    "tags": ["error-handling", "resilience", "retry", "circuit-breaker", "patterns"],
+    "author": "anthropics",
+    "stars": 198,
+    "installs": 3900
+  },
+  {
+    "name": "sql-patterns",
+    "description": "SQL query optimization, schema design, migrations, indexing strategies, and N+1 detection.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Data",
+    "tags": ["sql", "database", "optimization", "migrations", "indexing"],
+    "author": "anthropics",
+    "stars": 289,
+    "installs": 4600
+  },
+  {
+    "name": "data-visualization",
+    "description": "Interactive charts and dashboards — D3.js, Chart.js, Recharts. Bar, line, scatter, network graphs.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Data",
+    "tags": ["charts", "d3", "visualization", "dashboards", "recharts"],
+    "author": "anthropics",
+    "stars": 243,
+    "installs": 3800
+  },
+  {
+    "name": "managing-database-schemas",
+    "description": "Database schema design and migrations — Prisma, Drizzle, Alembic, Flyway with rollback strategies.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Data",
+    "tags": ["schema", "migrations", "prisma", "drizzle", "database"],
+    "author": "anthropics",
+    "stars": 211,
+    "installs": 3400
+  },
+  {
+    "name": "wordpress-plugin-dev",
+    "description": "WordPress plugin scaffolding — hooks, shortcodes, admin panels, Freemius monetization, WP.org submission ready.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "WordPress",
+    "tags": ["wordpress", "plugin", "php", "freemius", "wporg"],
+    "author": "anthropics",
+    "stars": 167,
+    "installs": 2100
+  },
+  {
+    "name": "generating-wordpress-fse-blocks",
+    "description": "Full Site Editing blocks — block.json, edit/save components, InspectorControls, block patterns and templates.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "WordPress",
+    "tags": ["wordpress", "gutenberg", "fse", "blocks", "react"],
+    "author": "anthropics",
+    "stars": 134,
+    "installs": 1700
+  },
+  {
+    "name": "seo-schema-markup",
+    "description": "Schema.org JSON-LD generation — Product, Article, FAQ, BreadcrumbList, Organization, LocalBusiness.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "WordPress",
+    "tags": ["schema", "seo", "json-ld", "structured-data", "google"],
+    "author": "anthropics",
+    "stars": 189,
+    "installs": 2800
+  },
+  {
+    "name": "profiling-performance",
+    "description": "Performance profiling and optimization — Lighthouse audits, Web Vitals, bundle analysis, memory leaks.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "DevOps",
+    "tags": ["performance", "lighthouse", "web-vitals", "profiling", "optimization"],
+    "author": "anthropics",
+    "stars": 223,
+    "installs": 3500
+  },
+  {
+    "name": "stripe-payments",
+    "description": "Stripe integration — checkout sessions, subscriptions, webhooks, customer portal, and metered billing.",
+    "repo": "https://github.com/anthropics/claude-code-skills",
+    "category": "Data",
+    "tags": ["stripe", "payments", "subscriptions", "billing", "checkout"],
+    "author": "anthropics",
+    "stars": 345,
+    "installs": 5700
+  }
+]

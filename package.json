@@ -1,0 +1,43 @@
+{
+  "name": "claude-skill-store",
+  "version": "1.0.0",
+  "description": "Browse, search, and install Claude Code skills — like npm for skills",
+  "type": "module",
+  "bin": {
+    "claude-skill-store": "./bin/store.js"
+  },
+  "main": "./src/index.js",
+  "files": [
+    "bin/",
+    "src/",
+    "data/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/store.js",
+    "test": "node bin/store.js popular --limit 5"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "cli",
+    "ai",
+    "anthropic",
+    "skill-store"
+  ],
+  "author": "NickCirv",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/claude-skill-store.git"
+  }
+}
