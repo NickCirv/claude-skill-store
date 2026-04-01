@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # claude-skill-store
 
 Browse, search, and install Claude Code skills from a curated registry — like npm for AI skills.
