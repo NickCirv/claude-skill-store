@@ -1,118 +1,54 @@
-![Banner](banner.svg)
+<div align="center">
 
 # claude-skill-store
 
-Browse, search, and install Claude Code skills from a curated registry — like npm for AI skills.
+**Search, browse, and install Claude Code skills from the terminal**
 
-<p align="center">
-  <img src="https://img.shields.io/npm/v/claude-skill-store.svg" alt="npm version" />
-  <img src="https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg" alt="node >= 18" />
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license" />
-</p>
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?labelColor=0B0A09)](LICENSE)
+[![Node >= 18](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg?labelColor=0B0A09)](https://nodejs.org)
 
-## Why
+</div>
 
-Claude Code skills extend what Claude can do — RAG pipelines, MCP servers, voice agents, WordPress plugins, Stripe integrations, and more. Finding the right skill used to mean digging through GitHub repos or documentation. `claude-skill-store` gives you a searchable, browsable registry with install counts, author info, and one-command installation.
-
-## Quick Start
+## Install
 
 ```bash
-# Search for skills
-npx claude-skill-store search rag
-
-# See what's most popular
-npx claude-skill-store popular
-
-# Browse by category
-npx claude-skill-store categories
-
-# Get full details on a skill
-npx claude-skill-store info mcp-server-builder
-
-# Install a skill
-npx claude-skill-store install rag-pipeline
+npx github:NickCirv/claude-skill-store <command>
 ```
 
-## What It Does
-
-- Searches skills by name, description, tags, category, or author — all fields indexed
-- Shows install counts and star ratings so you can find proven skills fast
-- Browses skills by category: AI Engineering, HuggingFace, Web & Frontend, Content & Writing, SEO, Development, Business & Data, and more
-- Displays full skill details including repo URL, tags, and description
-- Installs by delegating to `npx add-skill <name>` — the standard Claude Code skill installer
-
-## Example Output
-
-```
-$ npx claude-skill-store search rag
-
-  Found 3 skills matching "rag"
-
-  rag-pipeline          AI Engineering    4,800 installs   ★312
-  Build production RAG systems with document ingestion, chunking, embeddings,
-  and retrieval. Supports Chroma, Pinecone, pgvector.
-  Tags: rag, embeddings, search, vector-db, llm
-
-  knowledge-graph-rag   AI Engineering    1,200 installs   ★89
-  GraphRAG implementation — combine knowledge graphs with LLM retrieval.
-  Tags: graphrag, knowledge-graph, neo4j, llm, rag
-
-  web-scraping-ai       AI Engineering    2,100 installs   ★156
-  Web scraping with AI — Firecrawl, structured extraction, content pipelines.
-  Tags: scraping, firecrawl, extraction, web, rag
-
-
-$ npx claude-skill-store categories
-
-  AI Engineering          12 skills
-  Content & Writing       18 skills
-  Development             14 skills
-  HuggingFace              8 skills
-  Business & Data          9 skills
-  Web & Frontend           6 skills
-  SEO                      3 skills
-```
-
-## Commands
-
-### `search <query>`
-
-Search by keyword across name, description, tags, category, and author.
-
-### `popular`
-
-Show the most installed skills.
-
-| Option | Description | Default |
-|--------|-------------|---------|
-| `-n, --limit <number>` | Number of results to show | `10` |
-
-### `categories`
-
-List all categories with skill counts, or filter to a single category.
-
-| Option | Description |
-|--------|-------------|
-| `-c, --category <name>` | Show skills in a specific category |
-
-### `info <skill>`
-
-Show full details for a skill — description, repo, tags, install count, author.
-
-### `install <skill>`
-
-Install a skill via `npx add-skill`. Requires the Claude Code skill ecosystem.
-
-### `list`
-
-List every skill in the registry.
-
-## Install Globally
+## Usage
 
 ```bash
-npm i -g claude-skill-store
+# Search across name, description, tags, category, author
+npx github:NickCirv/claude-skill-store search rag
+
+# Browse the most-installed skills
+npx github:NickCirv/claude-skill-store popular --limit 5
+
+# List all categories
+npx github:NickCirv/claude-skill-store categories
+
+# Filter to a single category
+npx github:NickCirv/claude-skill-store categories --category "AI Engineering"
+
+# Full details on a skill
+npx github:NickCirv/claude-skill-store info rag-pipeline
+
+# Install a skill (delegates to npx add-skill)
+npx github:NickCirv/claude-skill-store install rag-pipeline
 ```
 
-## License
+| Command | Description |
+|---------|-------------|
+| `search <query>` | Search by keyword, tag, or category |
+| `popular` | Most-installed skills; `-n/--limit <n>` to control count |
+| `categories` | All categories with counts; `-c/--category <name>` to filter |
+| `info <skill>` | Full detail — repo, tags, install count, author |
+| `install <skill>` | Install via `npx add-skill` |
+| `list` | All skills in the registry |
 
-MIT
+## What it does
+
+`claude-skill-store` is a local CLI registry for Claude Code skills. It indexes skills by name, description, tags, category, and author so you can find what you need without digging through GitHub. The `install` command hands off to `npx add-skill`, the standard Claude Code skill installer.
+
+---
+<sub>Node >=18 · MIT · by <a href="https://github.com/NickCirv">NickCirv</a></sub>
